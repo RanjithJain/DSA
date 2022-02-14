@@ -2,23 +2,11 @@ package com.java.sample;
 
 public class Node {
 
-    public void setValue(int value) {
-        this.value = value;
-    }
+    public int value;
+    public Node next;
 
-    public void setNext(Node next) {
-        this.next = next;
+    Node(int data){
+        value=data;
     }
-
-    public int getValue() {
-        return value;
-    }
-
-    public Node getNext() {
-        return next;
-    }
-
-    private int value;
-    private Node next;
 
 }
