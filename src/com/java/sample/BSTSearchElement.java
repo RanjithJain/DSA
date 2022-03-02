@@ -24,7 +24,7 @@ public class BSTSearchElement {
         tree.root.left.right = new TreeNode(5);
 
         System.out.println("Level order traversal of binary tree is ");
-        if((tree.search( tree.root,20))==null)
+        if((tree.search( tree.root,45))==null)
             System.out.println("Not Found");
         else
             System.out.println("key found");
